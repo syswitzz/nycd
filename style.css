@@ -125,32 +125,6 @@ main {
   margin-bottom: 20px;
 }
 
-@media (max-width: 480px) {
-  .top-image-wrapper {
-    margin-top: 50px;
-  }
-  #countdown-text {
-    font-size: 16px;
-    letter-spacing: 1.5px;
-  }
-  .counter {
-    width: 64px;
-    margin: 0 6px;
-  }
-  .number {
-    font-size: 32px;
-    padding: 8px 0;
-  }
-  .label {
-    font-size: 11px;
-  }
-  .footer {
-    position: fixed !important;
-    bottom: 0 !important;
-  } 
-}
-
-
 /* snowflakes ke liye container: poori screen cover, pointer block nahi karega */
 #snow-container {
   position: fixed;
