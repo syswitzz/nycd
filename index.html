@@ -4,15 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minimal Year Countdown</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="snow-container"></div>
+
   <header class="top-image-wrapper">
     <img class="top-image" src="images/padoru.webp" alt="padoru">
   </header>
 
   <main>
     <h1 id="countdown-text">NEW YEAR COUNTDOWN!</h1>
+    
+    <p id="timezone-text">
+      Countdown to 1 Jan 2026, 00:00 in:
+      <select id="timezone-select">
+        <option value="IST">India (IST)</option>
+        <option value="UTC">UTC</option>
+        <option value="EST">New York (EST)</option>
+        <option value="CET">Europe (CET)</option>
+      </select>
+    </p>
+
 
     <section id="countdown-container">
       <div class="counter">
