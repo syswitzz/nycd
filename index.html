@@ -19,7 +19,7 @@
   <div id="snow-container"></div>
 
   <header class="top-image-wrapper">
-    <img class="top-image" src="images/padoru.webp" alt="padoru">
+    <img class="top-image" id="padoru" src="images/padoru.webp" alt="padoru">
   </header>
 
   <main>
@@ -28,13 +28,14 @@
     <p id="timezone-text">
       Countdown to 1 Jan 2026, 00:00 in:
       <select id="timezone-select">
-        <option value="IST">India (IST)</option>
+        <option value="IST" selected>India (IST)</option>
         <option value="UTC">UTC</option>
         <option value="EST">New York (EST)</option>
         <option value="CET">Europe (CET)</option>
+        <option value="JST">Japan (JST)</option>
+        <option value="MSK">Moscow (MSK)</option>
       </select>
     </p>
-
 
     <section id="countdown-container">
       <div class="counter">
@@ -57,8 +58,7 @@
         <div class="label">SECONDS</div>
       </div>
     </section>
-  </main>
-
+  </main> 
   <footer class="footer">
     <div class="social-links">
       <a href="https://github.com/syswitzz" target="_blank">
